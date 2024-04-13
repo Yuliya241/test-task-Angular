@@ -1,0 +1,38 @@
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block-icon {
+  height: 7rem;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  background-color: rgb(98, 205, 116);
+  width: 13rem;
+  height: 6rem;
+  border: none;
+  cursor: pointer;
+  color: #000000;
+  font-size: 1.2rem;
+  border-radius: 1.5rem;
+}
+
+.btn:hover {
+  background-color: rgb(140, 184, 146);
+}
+
+.btn[disabled] {
+  background-color: rgb(96, 96, 97);
+  color: #ffffff;
+}
+
+.ng-fa-icon.icon {
+  font-size: 5rem;
+}

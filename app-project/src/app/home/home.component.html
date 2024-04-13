@@ -1,0 +1,6 @@
+<div class="wrapper">
+  <div class="block-icon">
+    <fa-icon class="icon" *ngIf="isShown && iconDedinition" [icon]="iconDedinition"></fa-icon>
+  </div>
+  <button class="btn" (click)="showIcon()" [disabled]="isDisabled">Show icon</button>
+</div>
