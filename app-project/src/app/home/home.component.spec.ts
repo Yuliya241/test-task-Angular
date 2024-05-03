@@ -18,4 +18,14 @@ describe('HomeComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should call showIcon', () => {
+    component.showIcon();
+    expect(component.showIcon).toBeTruthy();
+  });
+
+  it('should call getRandomNum', () => {
+    component.getRandomNum(0, 524);
+    expect(component.getRandomNum).toBeTruthy();
+  });
 });
